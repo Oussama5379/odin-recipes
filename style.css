@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Courier New",Georgia, sans-serif;
     color: rgba(32, 2, 2, 0.568);
     background-image: linear-gradient(to left,rgb(40, 194, 221), #3643d2);
     background-size: 100%;
@@ -8,15 +8,24 @@ h1{
     text-align: center;
     font-weight: 800;
     color: rgb(67, 5, 67);
+    font-size: 40px;
+    margin-bottom: 200px;
 }
 ul{
     text-align: center;
     list-style-type: none;
 }
-li{
-    font-size: 28px;
+.pizza, .lasagna , .spaghetti{
+    font-size: 35px;
     font-weight: 700;
-    padding-top: 12px;
+    padding: 18px;
+    background-image: linear-gradient(to left,rgb(40, 194, 221), #3643d2);
+    width: 200px;
+    margin: 10px auto;
+    border: black solid 2px;
+    border-radius: 30px;
+    box-shadow: -5px -5px 10px;
+    display: inline-block;
     
 }
 .ingredients{
